@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid rgba(var(--clr-gray-rgb), 0.2);
+  border-radius: var(--space-md);
+}
+
+.cardTop {
+  padding: var(--space-lg);
+}
+
+.cardIcons {
+  background-color: rgba(var(--clr-primary-rgb), 0.05);
+  padding: calc(var(--space-sm) + 2px);
+  border-radius: calc(var(--space-xs) + 1px);
+  color: var(--clr-primary);
+}
+
+.cardIcons {
+  display: flex;
+}
+
+.cardTopTitle {
+  margin-bottom: var(--space-xl);
+}
+
+.cardBottom {
+  padding: var(--space-lg) calc(var(--space-sm) + 2px);
+  border-top: 1px solid rgba(var(--clr-gray-rgb), 0.2);
+}

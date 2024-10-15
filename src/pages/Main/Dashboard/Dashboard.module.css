@@ -1,0 +1,11 @@
+.TopGrid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.DashboardBottomTable {
+  margin-top: var(--space-xl);
+}
+
+.AttendanceOverviewTable {
+  margin-top: var(--space-xl);
+}
